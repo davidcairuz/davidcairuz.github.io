@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: David's Notebook
+description: Keeping notes on data science
+meta_description: "David's Notebook, Keeping notes on data science."
 
 markdown: kramdown
 highlighter: pygments
