@@ -3,6 +3,7 @@ layout: default
 title: Home
 cover: false
 about: 'about.html'
+resume: 'resume.html'
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -21,7 +22,8 @@ about: 'about.html'
                 {% if site.description %} {{ site.description }}. {% endif %}
             </h2>
             <h2 class="page-description">
-                {% if page.resume %} <a href='{{ site.baseurl }}{{ page.resume }}'>About me </a> {% endif %}
+                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'>About me </a> {% endif %}
+                {% if page.resume %} <a href='{{ site.baseurl }}{{ page.resume }}'>Resume </a> {% endif %}
             </h2>
         </div>
     </div>
