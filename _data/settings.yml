@@ -7,8 +7,8 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'About', folder: 'pages', file: 'about.html'}
-- {name: 'Contact', folder: 'pages', file: 'contact.html'}
+- {name: 'Sobre', folder: 'pages', file: 'about.html'}
+- {name: 'Contato', folder: 'pages', file: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
@@ -21,8 +21,8 @@ social:
 
 # Customize site text
 pagination:
-  next_page: 'Anterior'
-  previous_page: 'Próximo'
+  next_page: 'Próximo'
+  previous_page: 'Anterior'
 
 # sharing_button_prompt: 'Feel free to share!'
 
