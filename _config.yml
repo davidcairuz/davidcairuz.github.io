@@ -15,10 +15,10 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-name:                "COVID-19 ICMC"
-title:		           "COVID-19 ICMC"
-description:	       "a Jekyll theme for running a blog or publication"
-author:              "Paul Le"
+name:                "COVID-19"
+title:		           "COVID-19"
+description:	       "Mapas com informações do coronavirus"
+author:              "ICMC"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
