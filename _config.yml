@@ -15,7 +15,8 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Millennial"
+name:                "COVID-19 ICMC"
+title:		           "COVID-19 ICMC"
 description:	       "a Jekyll theme for running a blog or publication"
 author:              "Paul Le"
 
