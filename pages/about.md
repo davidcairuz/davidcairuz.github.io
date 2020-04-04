@@ -3,5 +3,15 @@ layout: misc
 title: Sobre
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-<!-- Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out [the documentation]({{ site.github.url }}{% post_url 2016-10-10-getting-started %}). -->
+Nossa proposta consiste em desenvolver modelos preditivos utilizando métodos computacionais e estatísticos para a prevenção e dimensionamento dos impactos diversos da COVID-19.
+
+Estão envolvidos os seguintes pesquisadores e alunos do ICMC USP:
+
+* Cibele Maria Russo Novelli
+* Luis Gustavo Nonato
+* Francisco Louzada Neto
+* Francisco Aparecido Rodrigues
+* Diego Nascimento
+* Luisa Moura
+* David Cairuz
+* Marina Machado

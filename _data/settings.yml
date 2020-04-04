@@ -7,6 +7,9 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
+- {name: 'Mapas', folder: 'pages', file: 'maps.html'}
+- {name: 'Tabela', folder: 'pages', file: 'tables.html'}
+- {name: 'Gráficos', folder: 'pages', file: 'graphs.html'}
 - {name: 'Sobre', folder: 'pages', file: 'about.html'}
 - {name: 'Contato', folder: 'pages', file: 'contact.html'}
 

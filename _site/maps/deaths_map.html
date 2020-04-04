@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2be04a594c9b4813a7965b04630667b8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2be04a594c9b4813a7965b04630667b8" ></div>
+        
+</body>
+<script>    
+    
+            var map_2be04a594c9b4813a7965b04630667b8 = L.map(
+                "map_2be04a594c9b4813a7965b04630667b8",
+                {
+                    center: [-15.0, -60.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5e8c09f7838b4cf2861f7a400d4d153b = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            var circle_marker_e7778ac672064a999ed78003cefaf97c = L.circleMarker(
+                [-2.43621333, -54.71857017],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_e7778ac672064a999ed78003cefaf97c.bindTooltip(
+                `<div>
+                     Nome: Santarém | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b554bb0f44cb49809b6adf0602e30cbe = L.circleMarker(
+                [-19.93752429, -43.92645317],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_b554bb0f44cb49809b6adf0602e30cbe.bindTooltip(
+                `<div>
+                     Nome: Belo Horizonte | Fatalidades: 3.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f9e01270c4eb4556afda781e4a6d5e7f = L.circleMarker(
+                [-20.37449323, -43.41614041],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_f9e01270c4eb4556afda781e4a6d5e7f.bindTooltip(
+                `<div>
+                     Nome: Mariana | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_afdb5a3ce4d540b0a0263bd34f2d3e94 = L.circleMarker(
+                [-2.531885985, -44.29791856],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_afdb5a3ce4d540b0a0263bd34f2d3e94.bindTooltip(
+                `<div>
+                     Nome: São Luís | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7bdfeab7a81d4079a0302358679e42d1 = L.circleMarker(
+                [-7.559231855, -34.9983763],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_7bdfeab7a81d4079a0302358679e42d1.bindTooltip(
+                `<div>
+                     Nome: Goiana | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a99bd59f7957483aacba05a7bb034215 = L.circleMarker(
+                [-7.992660075, -34.86131039],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_a99bd59f7957483aacba05a7bb034215.bindTooltip(
+                `<div>
+                     Nome: Olinda | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e89fd85cd4f4df884973d5539ffb7b8 = L.circleMarker(
+                [-8.062762483, -34.88894194],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_1e89fd85cd4f4df884973d5539ffb7b8.bindTooltip(
+                `<div>
+                     Nome: Recife | Fatalidades: 6.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c547b349ef7e42bea1e40d1a78d446a8 = L.circleMarker(
+                [-22.29587997, -53.27480699],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_c547b349ef7e42bea1e40d1a78d446a8.bindTooltip(
+                `<div>
+                     Nome: Batayporã | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8d9598a6c2b644f08bf9d8c969f77863 = L.circleMarker(
+                [-16.258541, -47.95572006],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_8d9598a6c2b644f08bf9d8c969f77863.bindTooltip(
+                `<div>
+                     Nome: Luziânia | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6785b9eff6a5410cb561ad1aeba3f5e7 = L.circleMarker(
+                [-3.1346914910000003, -60.02333518],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_6785b9eff6a5410cb561ad1aeba3f5e7.bindTooltip(
+                `<div>
+                     Nome: Manaus | Fatalidades: 2.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4e6bb44be0f847eba62fe55099096c1e = L.circleMarker(
+                [-2.627052586, -56.73629215],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_4e6bb44be0f847eba62fe55099096c1e.bindTooltip(
+                `<div>
+                     Nome: Parintins | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a4e26595d4c341be91297ed40ab500c8 = L.circleMarker(
+                [-7.024491668, -37.27691334],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_a4e26595d4c341be91297ed40ab500c8.bindTooltip(
+                `<div>
+                     Nome: Patos | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0ecccdf828b948fc851ac902b88e17cf = L.circleMarker(
+                [-15.79408736, -47.88790548],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_0ecccdf828b948fc851ac902b88e17cf.bindTooltip(
+                `<div>
+                     Nome: Brasília | Fatalidades: 5.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_441e3b24e8e44c60b1533b773ecf3087 = L.circleMarker(
+                [-13.01477191, -38.48806148],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_441e3b24e8e44c60b1533b773ecf3087.bindTooltip(
+                `<div>
+                     Nome: Salvador | Fatalidades: 3.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_92131eca022341c596bc5e5346cc4780 = L.circleMarker(
+                [-9.660822152, -35.70162991],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_92131eca022341c596bc5e5346cc4780.bindTooltip(
+                `<div>
+                     Nome: Maceió | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_706a5c93e4a24bc79d2d1877a4d80802 = L.circleMarker(
+                [-20.15676984, -40.27521704],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_706a5c93e4a24bc79d2d1877a4d80802.bindTooltip(
+                `<div>
+                     Nome: Serra | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c48e2bcd1dc6422992b5c895fb90d95c = L.circleMarker(
+                [-20.3383741, -40.29395664],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_c48e2bcd1dc6422992b5c895fb90d95c.bindTooltip(
+                `<div>
+                     Nome: Vila Velha | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6b88908ce1e44854847a88b9cfdb7653 = L.circleMarker(
+                [-27.51337105, -48.76496003],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_6b88908ce1e44854847a88b9cfdb7653.bindTooltip(
+                `<div>
+                     Nome: Antônio Carlos | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e53de1a92ef249d3ac1ec9f4717226a6 = L.circleMarker(
+                [-28.67357225, -49.36593956],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_e53de1a92ef249d3ac1ec9f4717226a6.bindTooltip(
+                `<div>
+                     Nome: Criciúma | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_67b057c109cb45c1b453a58a3c645ef4 = L.circleMarker(
+                [-27.58779555, -48.54763738],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_67b057c109cb45c1b453a58a3c645ef4.bindTooltip(
+                `<div>
+                     Nome: Florianópolis | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4360b29bd12c4059955e7ad6195a1009 = L.circleMarker(
+                [-26.30451765, -48.84940914],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_4360b29bd12c4059955e7ad6195a1009.bindTooltip(
+                `<div>
+                     Nome: Joinville | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dcdee28a8522445e97249953477da08b = L.circleMarker(
+                [-27.59031208, -48.61602272],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_dcdee28a8522445e97249953477da08b.bindTooltip(
+                `<div>
+                     Nome: São José | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_092f690ec9cf45048c374b1ae9ae8055 = L.circleMarker(
+                [-8.76889179, -63.83144565],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_092f690ec9cf45048c374b1ae9ae8055.bindTooltip(
+                `<div>
+                     Nome: Porto Velho | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b28dd08d95544708b7eb190bb0942a2f = L.circleMarker(
+                [-29.59415652, -51.15957419],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_b28dd08d95544708b7eb190bb0942a2f.bindTooltip(
+                `<div>
+                     Nome: Ivoti | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b0e418f119d546bf95b77c27372331fe = L.circleMarker(
+                [-29.68632603, -51.12860528],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_b0e418f119d546bf95b77c27372331fe.bindTooltip(
+                `<div>
+                     Nome: Novo Hamburgo | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_28d2a7eec90c4d14be46de2cff84c84d = L.circleMarker(
+                [-30.03003677, -51.22866046],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_28d2a7eec90c4d14be46de2cff84c84d.bindTooltip(
+                `<div>
+                     Nome: Porto Alegre | Fatalidades: 3.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0cf0921a30494825a0f9c3bad541793a = L.circleMarker(
+                [-10.907215800000001, -37.04821264],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_0cf0921a30494825a0f9c3bad541793a.bindTooltip(
+                `<div>
+                     Nome: Aracaju | Fatalidades: 2.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_153a02afd3fa47a3811b58c60184c216 = L.circleMarker(
+                [-23.39582674, -46.3204896],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_153a02afd3fa47a3811b58c60184c216.bindTooltip(
+                `<div>
+                     Nome: Arujá | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ac03f433de1e4803b90e771b0331d221 = L.circleMarker(
+                [-23.36211605, -46.74410142],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_ac03f433de1e4803b90e771b0331d221.bindTooltip(
+                `<div>
+                     Nome: Caieiras | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9f5f0798845e44e3909494d8b9790ffa = L.circleMarker(
+                [-22.9073425, -47.06015627],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_9f5f0798845e44e3909494d8b9790ffa.bindTooltip(
+                `<div>
+                     Nome: Campinas | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9f54f19cce26402c996b99f6617b75b6 = L.circleMarker(
+                [-23.5352495, -46.84144543],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_9f54f19cce26402c996b99f6617b75b6.bindTooltip(
+                `<div>
+                     Nome: Carapicuíba | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_766968ea941247ffb93d60c5c1da6253 = L.circleMarker(
+                [-23.603514, -46.93184633],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_766968ea941247ffb93d60c5c1da6253.bindTooltip(
+                `<div>
+                     Nome: Cotia | Fatalidades: 2.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ee5f8e10c2f54f3ebe4d4b1889020514 = L.circleMarker(
+                [-23.6473125, -46.85085999],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_ee5f8e10c2f54f3ebe4d4b1889020514.bindTooltip(
+                `<div>
+                     Nome: Embu Das Artes | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a86c27b88fb241c9bbff83d293cab30c = L.circleMarker(
+                [-23.2758255, -46.73252670000001],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_a86c27b88fb241c9bbff83d293cab30c.bindTooltip(
+                `<div>
+                     Nome: Francisco Morato | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9e9d38c104e040f4b8bc371b3dd9f21f = L.circleMarker(
+                [-23.468506, -46.53108409],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_9e9d38c104e040f4b8bc371b3dd9f21f.bindTooltip(
+                `<div>
+                     Nome: Guarulhos | Fatalidades: 2.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e8afd1de330b4b399d2a0d9637777990 = L.circleMarker(
+                [-23.533611999999998, -46.78881014],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_e8afd1de330b4b399d2a0d9637777990.bindTooltip(
+                `<div>
+                     Nome: Osasco | Fatalidades: 3.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_86a5993c3a504082a826658ceaf09efb = L.circleMarker(
+                [-21.1848345, -47.80547592],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_86a5993c3a504082a826658ceaf09efb.bindTooltip(
+                `<div>
+                     Nome: Ribeirão Preto | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_535ead2d41424db7af509ca50fcbc082 = L.circleMarker(
+                [-23.657510000000002, -46.53087426],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_535ead2d41424db7af509ca50fcbc082.bindTooltip(
+                `<div>
+                     Nome: Santo André | Fatalidades: 2.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f2d5133c32de479083400fa5066a6682 = L.circleMarker(
+                [-23.499323, -47.45785325],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_f2d5133c32de479083400fa5066a6682.bindTooltip(
+                `<div>
+                     Nome: Sorocaba | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5ec9541d0cfe4f24a38af3b5909000dc = L.circleMarker(
+                [-23.5368275, -46.30781047],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_5ec9541d0cfe4f24a38af3b5909000dc.bindTooltip(
+                `<div>
+                     Nome: Suzano | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_490ec3975aa14c7a939a397bb566dad3 = L.circleMarker(
+                [-23.710304500000003, -46.55025725],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_490ec3975aa14c7a939a397bb566dad3.bindTooltip(
+                `<div>
+                     Nome: São Bernardo Do Campo | Fatalidades: 2.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_793742f27ecc4a24bddc8bac734ae64b = L.circleMarker(
+                [-23.614704999999997, -46.57151461],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_793742f27ecc4a24bddc8bac734ae64b.bindTooltip(
+                `<div>
+                     Nome: São Caetano Do Sul | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b29833f132d94e039e778b5c7f22bc16 = L.circleMarker(
+                [-23.567386499999998, -46.57038318],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_b29833f132d94e039e778b5c7f22bc16.bindTooltip(
+                `<div>
+                     Nome: São Paulo | Fatalidades: 164.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7493060e00744955a850c59923264639 = L.circleMarker(
+                [-23.967373000000002, -46.38449082],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_7493060e00744955a850c59923264639.bindTooltip(
+                `<div>
+                     Nome: São Vicente | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_80372ba5da3e47e582bc62a2049bf555 = L.circleMarker(
+                [-23.6233285, -46.78578003],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_80372ba5da3e47e582bc62a2049bf555.bindTooltip(
+                `<div>
+                     Nome: Taboão Da Serra | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a77c7e812a65446a9ffdcf138eeeb792 = L.circleMarker(
+                [-23.6153025, -47.01964778],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_a77c7e812a65446a9ffdcf138eeeb792.bindTooltip(
+                `<div>
+                     Nome: Vargem Grande Paulista | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_36455b1e1a204eaf8a4ac0d867555a25 = L.circleMarker(
+                [-24.041223199999997, -52.38111509],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_36455b1e1a204eaf8a4ac0d867555a25.bindTooltip(
+                `<div>
+                     Nome: Campo Mourão | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b0bf0d1a5328426db58f26559515aaba = L.circleMarker(
+                [-24.9537975, -53.45972218],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_b0bf0d1a5328426db58f26559515aaba.bindTooltip(
+                `<div>
+                     Nome: Cascavel | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_24ae434cb23e4aefb6a39266fae4360b = L.circleMarker(
+                [-23.422279999999997, -51.93988187],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_24ae434cb23e4aefb6a39266fae4360b.bindTooltip(
+                `<div>
+                     Nome: Maringá | Fatalidades: 2.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c6de6607efe04fae9391bac712c4552b = L.circleMarker(
+                [-5.193801235, -37.35687414],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_c6de6607efe04fae9391bac712c4552b.bindTooltip(
+                `<div>
+                     Nome: Mossoró | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4549cef1a77e4209b9f699405f688d26 = L.circleMarker(
+                [-5.7508985379999995, -35.25225473],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_4549cef1a77e4209b9f699405f688d26.bindTooltip(
+                `<div>
+                     Nome: Natal | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9fc51ea7f32c4f4baeafe6bc70322222 = L.circleMarker(
+                [-2.903360145, -41.77817059],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_9fc51ea7f32c4f4baeafe6bc70322222.bindTooltip(
+                `<div>
+                     Nome: Parnaíba | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6c9636682fc44453a12ebaf91c9217ff = L.circleMarker(
+                [-3.805716356, -41.83010877],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_6c9636682fc44453a12ebaf91c9217ff.bindTooltip(
+                `<div>
+                     Nome: São José Do Divino | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_233c09cd8ebb46aea60d72b449ff53a3 = L.circleMarker(
+                [-5.086341952, -42.80527046],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_233c09cd8ebb46aea60d72b449ff53a3.bindTooltip(
+                `<div>
+                     Nome: Teresina | Fatalidades: 2.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7a436eb569cb4835898270fd42db4a0d = L.circleMarker(
+                [-22.96763828, -42.02833597],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_7a436eb569cb4835898270fd42db4a0d.bindTooltip(
+                `<div>
+                     Nome: Arraial Do Cabo | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9e62d41c8bab4abfae92fad6e8160948 = L.circleMarker(
+                [-22.76455597, -43.39962497],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_9e62d41c8bab4abfae92fad6e8160948.bindTooltip(
+                `<div>
+                     Nome: Belford Roxo | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f0678eca45b743ce8a4b74a06ed7c93e = L.circleMarker(
+                [-22.45542661, -43.47467612],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_f0678eca45b743ce8a4b74a06ed7c93e.bindTooltip(
+                `<div>
+                     Nome: Miguel Pereira | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0d0a936a5def47e69c1753d56e9abba0 = L.circleMarker(
+                [-22.89645239, -43.07582317],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_0d0a936a5def47e69c1753d56e9abba0.bindTooltip(
+                `<div>
+                     Nome: Niterói | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9f49781fab514981bb164c2c30e62583 = L.circleMarker(
+                [-22.51059861, -43.17733658],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_9f49781fab514981bb164c2c30e62583.bindTooltip(
+                `<div>
+                     Nome: Petrópolis | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_52975da8a14d4132889b33e3e6c56589 = L.circleMarker(
+                [-22.7112715, -42.62599784],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_52975da8a14d4132889b33e3e6c56589.bindTooltip(
+                `<div>
+                     Nome: Rio Bonito | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ce1204c4491444f98c9f301df86affb4 = L.circleMarker(
+                [-22.52394119, -41.93696713],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_ce1204c4491444f98c9f301df86affb4.bindTooltip(
+                `<div>
+                     Nome: Rio Das Ostras | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fc06b8b7cc9f4657b2cec21343d46ade = L.circleMarker(
+                [-22.87665212, -43.22787512],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_fc06b8b7cc9f4657b2cec21343d46ade.bindTooltip(
+                `<div>
+                     Nome: Rio De Janeiro | Fatalidades: 31.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_409ccf1218ee4becbf33191040531ec2 = L.circleMarker(
+                [-22.82954731, -43.03233506],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_409ccf1218ee4becbf33191040531ec2.bindTooltip(
+                `<div>
+                     Nome: São Gonçalo | Fatalidades: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2813498e5a644b92a42e7dec008f404d = L.circleMarker(
+                [-22.5099676, -44.09352188],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_2be04a594c9b4813a7965b04630667b8);
+        
+    
+            circle_marker_2813498e5a644b92a42e7dec008f404d.bindTooltip(
+                `<div>
+                     Nome: Volta Redonda | Fatalidades: 2.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
