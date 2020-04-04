@@ -6,12 +6,29 @@
   Site variables
 */
 
-tr:hover {background-color: #f5f5f5;}
-
-th {
-  background-color: black;
-  color: white;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "Grafico-1 Grafico-2 Mapa Mapa Mapa" "Grafico-1 Grafico-2 Mapa Mapa Mapa" "Grafico-3 Grafico-4 Mapa Mapa Mapa" "Grafico-3 Grafico-4 Corridinha Corridinha Corridinha" "Grafico-5 Grafico-6 Corridinha Corridinha Corridinha" "Grafico-5 Grafico-6 Corridinha Corridinha Corridinha";
 }
+
+.Corridinha { grid-area: Corridinha; }
+
+.Mapa { grid-area: Mapa; }
+
+.Grafico-1 { grid-area: Grafico-1; }
+
+.Grafico-2 { grid-area: Grafico-2; }
+
+.Grafico-3 { grid-area: Grafico-3; }
+
+.Grafico-4 { grid-area: Grafico-4; }
+
+.Grafico-5 { grid-area: Grafico-5; }
+
+.Grafico-6 { grid-area: Grafico-6; }
 
 $base-font-family: 'Roboto', sans-serif;
 
@@ -21,7 +38,7 @@ $code-font-family: "Source Code Pro", monospace;
 
 $brand-color: black;
 
-$container-width: 1100px;
+$container-width: 1500px;
 
 $tablet-width: 600px;
 
