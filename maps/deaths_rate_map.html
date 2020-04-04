@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_500e9d68b47448b7bdba59be416ae262 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_500e9d68b47448b7bdba59be416ae262" ></div>
+        
+</body>
+<script>    
+    
+            var map_500e9d68b47448b7bdba59be416ae262 = L.map(
+                "map_500e9d68b47448b7bdba59be416ae262",
+                {
+                    center: [-15.0, -60.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_25c87f3a774a4ebba2d43aa63c352e3d = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            var circle_marker_11cc050b3b404198aabda794e535845b = L.circleMarker(
+                [-13.07046495, -55.92177071],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_11cc050b3b404198aabda794e535845b.bindTooltip(
+                `<div>
+                     Nome: Lucas Do Rio Verde | Confirmados: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ee5295d3b0784de8bf663c63e0df3d5e = L.circleMarker(
+                [-15.79408736, -47.88790548],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_ee5295d3b0784de8bf663c63e0df3d5e.bindTooltip(
+                `<div>
+                     Nome: Brasília | Confirmados: 0.014
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_005d7ef21b104f6495a7f553628f5752 = L.circleMarker(
+                [-22.29587997, -53.27480699],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_005d7ef21b104f6495a7f553628f5752.bindTooltip(
+                `<div>
+                     Nome: Batayporã | Confirmados: 0.25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_08d4c43f97414291b4f3ab26b07f1916 = L.circleMarker(
+                [-16.67330977, -49.25581428],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_08d4c43f97414291b4f3ab26b07f1916.bindTooltip(
+                `<div>
+                     Nome: Goiânia | Confirmados: 0.02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_94fbff0683f942ce9565f8ab1786560a = L.circleMarker(
+                [-16.258541, -47.95572006],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_94fbff0683f942ce9565f8ab1786560a.bindTooltip(
+                `<div>
+                     Nome: Luziânia | Confirmados: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_78631e01c8514854a6bb8bf2ea2f3914 = L.circleMarker(
+                [-19.93752429, -43.92645317],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_78631e01c8514854a6bb8bf2ea2f3914.bindTooltip(
+                `<div>
+                     Nome: Belo Horizonte | Confirmados: 0.013
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8fcb7637d373441995ecb596b59feda2 = L.circleMarker(
+                [-20.37449323, -43.41614041],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_8fcb7637d373441995ecb596b59feda2.bindTooltip(
+                `<div>
+                     Nome: Mariana | Confirmados: 0.333
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_196e0118523a4d0bbb57c478359d8525 = L.circleMarker(
+                [-18.91899861, -48.27795018],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_196e0118523a4d0bbb57c478359d8525.bindTooltip(
+                `<div>
+                     Nome: Uberlândia | Confirmados: 0.083
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7c508e3029764133a2e271eb19224004 = L.circleMarker(
+                [-2.531885985, -44.29791856],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_7c508e3029764133a2e271eb19224004.bindTooltip(
+                `<div>
+                     Nome: São Luís | Confirmados: 0.012
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a57de57720f14ea7a5afda27fd7d384a = L.circleMarker(
+                [-13.01477191, -38.48806148],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_a57de57720f14ea7a5afda27fd7d384a.bindTooltip(
+                `<div>
+                     Nome: Salvador | Confirmados: 0.027
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_84194c2d4f42416ea228a2f8d970f6bf = L.circleMarker(
+                [-12.08331766, -41.09582885],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_84194c2d4f42416ea228a2f8d970f6bf.bindTooltip(
+                `<div>
+                     Nome: Utinga | Confirmados: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fd00c560b5e44d518d4a0bc739d1953f = L.circleMarker(
+                [-3.298278035, -60.62058945],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_fd00c560b5e44d518d4a0bc739d1953f.bindTooltip(
+                `<div>
+                     Nome: Manacapuru | Confirmados: 0.1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_02460e7bb3d745cf8c3c188084a35d13 = L.circleMarker(
+                [-3.1346914910000003, -60.02333518],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_02460e7bb3d745cf8c3c188084a35d13.bindTooltip(
+                `<div>
+                     Nome: Manaus | Confirmados: 0.022
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b0e4636d935848e9aa65c1b7ddd7f444 = L.circleMarker(
+                [-2.627052586, -56.73629215],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_b0e4636d935848e9aa65c1b7ddd7f444.bindTooltip(
+                `<div>
+                     Nome: Parintins | Confirmados: 0.333
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e74db78cc6e2467bb6897f4ea02351a1 = L.circleMarker(
+                [-9.660822152, -35.70162991],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_e74db78cc6e2467bb6897f4ea02351a1.bindTooltip(
+                `<div>
+                     Nome: Maceió | Confirmados: 0.118
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6c7cf32c4ec6466cbdc6766db91f6ef8 = L.circleMarker(
+                [-20.15676984, -40.27521704],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_6c7cf32c4ec6466cbdc6766db91f6ef8.bindTooltip(
+                `<div>
+                     Nome: Serra | Confirmados: 0.037
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b1c9ef8b95bd4c4dbb6219da4eb1914c = L.circleMarker(
+                [-20.3383741, -40.29395664],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_b1c9ef8b95bd4c4dbb6219da4eb1914c.bindTooltip(
+                `<div>
+                     Nome: Vila Velha | Confirmados: 0.043
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4a4da29ac4bc4fe7af148f32bb8125c8 = L.circleMarker(
+                [-20.32015379, -40.32220873],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_4a4da29ac4bc4fe7af148f32bb8125c8.bindTooltip(
+                `<div>
+                     Nome: Vitória | Confirmados: 0.051
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c98f41b50f16465daa7b09d265896f40 = L.circleMarker(
+                [-27.51337105, -48.76496003],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_c98f41b50f16465daa7b09d265896f40.bindTooltip(
+                `<div>
+                     Nome: Antônio Carlos | Confirmados: 0.125
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6f60e5eb85c947d7846e833e567df271 = L.circleMarker(
+                [-28.67357225, -49.36593956],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_6f60e5eb85c947d7846e833e567df271.bindTooltip(
+                `<div>
+                     Nome: Criciúma | Confirmados: 0.043
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_61c972f13d5741beb872c6e3f2769b40 = L.circleMarker(
+                [-27.58779555, -48.54763738],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_61c972f13d5741beb872c6e3f2769b40.bindTooltip(
+                `<div>
+                     Nome: Florianópolis | Confirmados: 0.013
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_29c846bde89f4923b52b8c49e70af6b8 = L.circleMarker(
+                [-26.30451765, -48.84940914],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_29c846bde89f4923b52b8c49e70af6b8.bindTooltip(
+                `<div>
+                     Nome: Joinville | Confirmados: 0.059
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_747b37f975964d3f9a80f6ba7350c220 = L.circleMarker(
+                [-27.59031208, -48.61602272],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_747b37f975964d3f9a80f6ba7350c220.bindTooltip(
+                `<div>
+                     Nome: São José | Confirmados: 0.083
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_75ade406ada5484c8213ea01aec3b4c2 = L.circleMarker(
+                [2.8166819189999996, -60.67053267],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_75ade406ada5484c8213ea01aec3b4c2.bindTooltip(
+                `<div>
+                     Nome: Boa Vista | Confirmados: 0.032
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_49635b0155c94001aaed525be70f3c00 = L.circleMarker(
+                [-8.76889179, -63.83144565],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_49635b0155c94001aaed525be70f3c00.bindTooltip(
+                `<div>
+                     Nome: Porto Velho | Confirmados: 0.125
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7a70a3d66a3140ddab312a6e39629e84 = L.circleMarker(
+                [-22.96763828, -42.02833597],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_7a70a3d66a3140ddab312a6e39629e84.bindTooltip(
+                `<div>
+                     Nome: Arraial Do Cabo | Confirmados: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3e9cf22d4b8d4912985d44793916941e = L.circleMarker(
+                [-22.76455597, -43.39962497],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_3e9cf22d4b8d4912985d44793916941e.bindTooltip(
+                `<div>
+                     Nome: Belford Roxo | Confirmados: 0.333
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a2c721f7a2af4014b3846e605c6e652a = L.circleMarker(
+                [-22.45542661, -43.47467612],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_a2c721f7a2af4014b3846e605c6e652a.bindTooltip(
+                `<div>
+                     Nome: Miguel Pereira | Confirmados: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_19cd6765a05b44faa11019ac17e691ac = L.circleMarker(
+                [-22.89645239, -43.07582317],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_19cd6765a05b44faa11019ac17e691ac.bindTooltip(
+                `<div>
+                     Nome: Niterói | Confirmados: 0.015
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_831e8df924694f2c816a4ca74ecb0fb3 = L.circleMarker(
+                [-22.51059861, -43.17733658],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_831e8df924694f2c816a4ca74ecb0fb3.bindTooltip(
+                `<div>
+                     Nome: Petrópolis | Confirmados: 0.077
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_36624f3ccdc9421c861cd3826590d51b = L.circleMarker(
+                [-22.7112715, -42.62599784],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_36624f3ccdc9421c861cd3826590d51b.bindTooltip(
+                `<div>
+                     Nome: Rio Bonito | Confirmados: 0.5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30710ec41dc742e88bf5c8664f1e5917 = L.circleMarker(
+                [-22.52394119, -41.93696713],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_30710ec41dc742e88bf5c8664f1e5917.bindTooltip(
+                `<div>
+                     Nome: Rio Das Ostras | Confirmados: 0.333
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6f9c669b4b1c4c548fc974dc29640615 = L.circleMarker(
+                [-22.87665212, -43.22787512],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_6f9c669b4b1c4c548fc974dc29640615.bindTooltip(
+                `<div>
+                     Nome: Rio De Janeiro | Confirmados: 0.042
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6c3d73506adc423ea9db6252e849d536 = L.circleMarker(
+                [-22.82954731, -43.03233506],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_6c3d73506adc423ea9db6252e849d536.bindTooltip(
+                `<div>
+                     Nome: São Gonçalo | Confirmados: 0.1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_041401d4ad7f4a1eb6b4d923ff10834e = L.circleMarker(
+                [-22.80233081, -43.3718846],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_041401d4ad7f4a1eb6b4d923ff10834e.bindTooltip(
+                `<div>
+                     Nome: São João De Meriti | Confirmados: 0.333
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_88b5cc3c9ff34467abef3fe5b65bdbe5 = L.circleMarker(
+                [-22.5099676, -44.09352188],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_88b5cc3c9ff34467abef3fe5b65bdbe5.bindTooltip(
+                `<div>
+                     Nome: Volta Redonda | Confirmados: 0.045
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6cc83e3db15a4c61a50cbff221d72c4f = L.circleMarker(
+                [-10.907215800000001, -37.04821264],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_6cc83e3db15a4c61a50cbff221d72c4f.bindTooltip(
+                `<div>
+                     Nome: Aracaju | Confirmados: 0.087
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_86dab6539f104079967ef741104e6d99 = L.circleMarker(
+                [-5.193801235, -37.35687414],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_86dab6539f104079967ef741104e6d99.bindTooltip(
+                `<div>
+                     Nome: Mossoró | Confirmados: 0.07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bff87d7a586b48d49adc8259aa2d2618 = L.circleMarker(
+                [-5.7508985379999995, -35.25225473],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_bff87d7a586b48d49adc8259aa2d2618.bindTooltip(
+                `<div>
+                     Nome: Natal | Confirmados: 0.013
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cbfd02f2f0124b6a816f505bd24f9590 = L.circleMarker(
+                [-29.59415652, -51.15957419],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_cbfd02f2f0124b6a816f505bd24f9590.bindTooltip(
+                `<div>
+                     Nome: Ivoti | Confirmados: 0.25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bfb57f8b72144b7ea3f3fb5de1a4de2f = L.circleMarker(
+                [-29.68632603, -51.12860528],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_bfb57f8b72144b7ea3f3fb5de1a4de2f.bindTooltip(
+                `<div>
+                     Nome: Novo Hamburgo | Confirmados: 0.071
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_299f8694833b4286bf6f91a060cb611d = L.circleMarker(
+                [-30.03003677, -51.22866046],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_299f8694833b4286bf6f91a060cb611d.bindTooltip(
+                `<div>
+                     Nome: Porto Alegre | Confirmados: 0.017
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5d2ea110c62445cab1837e28552a5c68 = L.circleMarker(
+                [-23.39582674, -46.3204896],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_5d2ea110c62445cab1837e28552a5c68.bindTooltip(
+                `<div>
+                     Nome: Arujá | Confirmados: 0.25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ad33689768b9497b9f726917c339e0c3 = L.circleMarker(
+                [-23.508902, -46.87465289],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_ad33689768b9497b9f726917c339e0c3.bindTooltip(
+                `<div>
+                     Nome: Barueri | Confirmados: 0.036
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_442159558c2641f585054e30f44b9cd8 = L.circleMarker(
+                [-23.36211605, -46.74410142],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_442159558c2641f585054e30f44b9cd8.bindTooltip(
+                `<div>
+                     Nome: Caieiras | Confirmados: 0.053
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_234afb91aa7a4aceb8a196a3637bd8ed = L.circleMarker(
+                [-22.9073425, -47.06015627],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_234afb91aa7a4aceb8a196a3637bd8ed.bindTooltip(
+                `<div>
+                     Nome: Campinas | Confirmados: 0.042
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6bbd8e738a6a4edd833155a80028ff42 = L.circleMarker(
+                [-23.5352495, -46.84144543],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_6bbd8e738a6a4edd833155a80028ff42.bindTooltip(
+                `<div>
+                     Nome: Carapicuíba | Confirmados: 0.091
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bbcc8775c5904eb2921fd5682819ea80 = L.circleMarker(
+                [-23.603514, -46.93184633],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_bbcc8775c5904eb2921fd5682819ea80.bindTooltip(
+                `<div>
+                     Nome: Cotia | Confirmados: 0.074
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_af9f76aeca754141b3087681a44f4721 = L.circleMarker(
+                [-21.3404305, -47.73004235],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_af9f76aeca754141b3087681a44f4721.bindTooltip(
+                `<div>
+                     Nome: Cravinhos | Confirmados: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9856be7ced4748898afa0fdea9882884 = L.circleMarker(
+                [-23.689295, -46.62338139],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_9856be7ced4748898afa0fdea9882884.bindTooltip(
+                `<div>
+                     Nome: Diadema | Confirmados: 0.05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2b278d311163466fa4be4084783bfdac = L.circleMarker(
+                [-23.6473125, -46.85085999],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_2b278d311163466fa4be4084783bfdac.bindTooltip(
+                `<div>
+                     Nome: Embu Das Artes | Confirmados: 0.056
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_287da4ae97554d918dae07de1fc78e4b = L.circleMarker(
+                [-23.3203025, -46.72787467],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_287da4ae97554d918dae07de1fc78e4b.bindTooltip(
+                `<div>
+                     Nome: Franco Da Rocha | Confirmados: 0.167
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7b2c3ded153143a9b45cc98dd0c87f2d = L.circleMarker(
+                [-23.468506, -46.53108409],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_7b2c3ded153143a9b45cc98dd0c87f2d.bindTooltip(
+                `<div>
+                     Nome: Guarulhos | Confirmados: 0.038
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d4940530182344d28f3fa1eb93bb6193 = L.circleMarker(
+                [-23.715357, -46.85055197],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_d4940530182344d28f3fa1eb93bb6193.bindTooltip(
+                `<div>
+                     Nome: Itapecerica Da Serra | Confirmados: 0.167
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d2b8debc97fa4d1b948bb1cf7b121cb5 = L.circleMarker(
+                [-21.2544715, -48.32034975],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_d2b8debc97fa4d1b948bb1cf7b121cb5.bindTooltip(
+                `<div>
+                     Nome: Jaboticabal | Confirmados: 0.333
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cf89ba5736184669a2d7225cbd82d55c = L.circleMarker(
+                [-23.5227065, -46.19676008],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_cf89ba5736184669a2d7225cbd82d55c.bindTooltip(
+                `<div>
+                     Nome: Mogi Das Cruzes | Confirmados: 0.062
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fc91ea746e3f462d9e188923b9895c8d = L.circleMarker(
+                [-23.533611999999998, -46.78881014],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_fc91ea746e3f462d9e188923b9895c8d.bindTooltip(
+                `<div>
+                     Nome: Osasco | Confirmados: 0.053
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2de82b9c0a5d43f899e1627093065e92 = L.circleMarker(
+                [-21.1848345, -47.80547592],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_2de82b9c0a5d43f899e1627093065e92.bindTooltip(
+                `<div>
+                     Nome: Ribeirão Preto | Confirmados: 0.067
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0ed3692cff1a479bb41abaa4a6b90462 = L.circleMarker(
+                [-23.657510000000002, -46.53087426],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_0ed3692cff1a479bb41abaa4a6b90462.bindTooltip(
+                `<div>
+                     Nome: Santo André | Confirmados: 0.029
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_979446bea11149838e88809ac93cd6c6 = L.circleMarker(
+                [-23.499323, -47.45785325],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_979446bea11149838e88809ac93cd6c6.bindTooltip(
+                `<div>
+                     Nome: Sorocaba | Confirmados: 0.25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ba44df6fada54aae903729ae339c2d0a = L.circleMarker(
+                [-23.5368275, -46.30781047],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_ba44df6fada54aae903729ae339c2d0a.bindTooltip(
+                `<div>
+                     Nome: Suzano | Confirmados: 0.167
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ebac35f3bf9f4c12af37c5f6a7ada775 = L.circleMarker(
+                [-23.710304500000003, -46.55025725],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_ebac35f3bf9f4c12af37c5f6a7ada775.bindTooltip(
+                `<div>
+                     Nome: São Bernardo Do Campo | Confirmados: 0.057
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0277e60ad9ac424f82f17ce23dac52aa = L.circleMarker(
+                [-23.614704999999997, -46.57151461],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_0277e60ad9ac424f82f17ce23dac52aa.bindTooltip(
+                `<div>
+                     Nome: São Caetano Do Sul | Confirmados: 0.028
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d15becaf35084433871139deed8fe0e0 = L.circleMarker(
+                [-23.567386499999998, -46.57038318],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_d15becaf35084433871139deed8fe0e0.bindTooltip(
+                `<div>
+                     Nome: São Paulo | Confirmados: 0.058
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_106ae8ec7fa741e7a669edacabc3ce3c = L.circleMarker(
+                [-23.80668765, -45.40268014],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_106ae8ec7fa741e7a669edacabc3ce3c.bindTooltip(
+                `<div>
+                     Nome: São Sebastião | Confirmados: 0.333
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2ae68188688240ab9eefdc21c915cdcd = L.circleMarker(
+                [-23.6233285, -46.78578003],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_2ae68188688240ab9eefdc21c915cdcd.bindTooltip(
+                `<div>
+                     Nome: Taboão Da Serra | Confirmados: 0.029
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30da6c20239c4d8d83bf82ca8256c9db = L.circleMarker(
+                [-23.6153025, -47.01964778],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_30da6c20239c4d8d83bf82ca8256c9db.bindTooltip(
+                `<div>
+                     Nome: Vargem Grande Paulista | Confirmados: 0.25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cda864a9e3f9416694c3685bca5dbc7f = L.circleMarker(
+                [-2.43621333, -54.71857017],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_cda864a9e3f9416694c3685bca5dbc7f.bindTooltip(
+                `<div>
+                     Nome: Santarém | Confirmados: 0.2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a61a5bd77df44fce963464bea113d8e9 = L.circleMarker(
+                [-24.041223199999997, -52.38111509],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_a61a5bd77df44fce963464bea113d8e9.bindTooltip(
+                `<div>
+                     Nome: Campo Mourão | Confirmados: 0.111
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c7e42b6a6cd94db984ad70458b59d3fe = L.circleMarker(
+                [-24.9537975, -53.45972218],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_c7e42b6a6cd94db984ad70458b59d3fe.bindTooltip(
+                `<div>
+                     Nome: Cascavel | Confirmados: 0.067
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9fcca6620c8f4aa882f1d28e60605a95 = L.circleMarker(
+                [-23.312155999999998, -51.16277342],
+                {"bubblingMouseEvents": true, "color": "#FEBDC1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FEBDC1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_9fcca6620c8f4aa882f1d28e60605a95.bindTooltip(
+                `<div>
+                     Nome: Londrina | Confirmados: 0.033
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e78c96584071471d9953fefe00c6899f = L.circleMarker(
+                [-23.422279999999997, -51.93988187],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_e78c96584071471d9953fefe00c6899f.bindTooltip(
+                `<div>
+                     Nome: Maringá | Confirmados: 0.133
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c3ecd4aaf51c41039916867337da7e42 = L.circleMarker(
+                [-2.903360145, -41.77817059],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_c3ecd4aaf51c41039916867337da7e42.bindTooltip(
+                `<div>
+                     Nome: Parnaíba | Confirmados: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6e1428e37cfd4ecf89cdfb24e645f7ec = L.circleMarker(
+                [-3.805716356, -41.83010877],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_6e1428e37cfd4ecf89cdfb24e645f7ec.bindTooltip(
+                `<div>
+                     Nome: São José Do Divino | Confirmados: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d98fa543168041deb908e9e5a042c484 = L.circleMarker(
+                [-5.086341952, -42.80527046],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_d98fa543168041deb908e9e5a042c484.bindTooltip(
+                `<div>
+                     Nome: Teresina | Confirmados: 0.105
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_551f39c5b8604d7c84e8f90c8df93f00 = L.circleMarker(
+                [-8.28986423, -35.03848897],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_551f39c5b8604d7c84e8f90c8df93f00.bindTooltip(
+                `<div>
+                     Nome: Cabo De Santo Agostinho | Confirmados: 0.5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1f0eb1fcfad9476ca3b1384063c79317 = L.circleMarker(
+                [-7.559231855, -34.9983763],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_1f0eb1fcfad9476ca3b1384063c79317.bindTooltip(
+                `<div>
+                     Nome: Goiana | Confirmados: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_52d7adc7d087449fb65016c98e44b16d = L.circleMarker(
+                [-7.992660075, -34.86131039],
+                {"bubblingMouseEvents": true, "color": "#CD4B50", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD4B50", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_52d7adc7d087449fb65016c98e44b16d.bindTooltip(
+                `<div>
+                     Nome: Olinda | Confirmados: 0.167
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8325d160247e4a9ab89255d03a7f9d4b = L.circleMarker(
+                [-8.062762483, -34.88894194],
+                {"bubblingMouseEvents": true, "color": "#EE999B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EE999B", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_8325d160247e4a9ab89255d03a7f9d4b.bindTooltip(
+                `<div>
+                     Nome: Recife | Confirmados: 0.065
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6b1e0032340d4b32a09621afdf7b7e40 = L.circleMarker(
+                [-7.024491668, -37.27691334],
+                {"bubblingMouseEvents": true, "color": "#9A3436", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9A3436", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_500e9d68b47448b7bdba59be416ae262);
+        
+    
+            circle_marker_6b1e0032340d4b32a09621afdf7b7e40.bindTooltip(
+                `<div>
+                     Nome: Patos | Confirmados: 1.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
