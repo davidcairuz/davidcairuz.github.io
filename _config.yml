@@ -1,5 +1,5 @@
 # Site Build Settings
-# baseurl: 'davidcairuz.github.io'
+baseurl: 'davidcairuz.github.io'
 
 # jekyll-paginate configuration
 paginate:            5
