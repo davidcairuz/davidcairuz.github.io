@@ -1,5 +1,5 @@
 # Site Build Settings
-baseurl: 'davidcairuz.github.io'
+# baseurl: 'davidcairuz.github.io'
 
 # jekyll-paginate configuration
 paginate:            5
@@ -17,7 +17,7 @@ sass:
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 name:                "COVID-19"
 title:		           "COVID-19"
-description:	       "Mapas com informações do coronavirus"
+description:	       "Estudo sobre o novo coronavirus"
 author:              "ICMC"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines

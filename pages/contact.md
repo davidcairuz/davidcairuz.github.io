@@ -3,4 +3,4 @@ layout: misc
 title: Contato
 ---
 
-Qualquer dúvida  pode entrar em contato conosco pelo email. 
+Entre em contato conosco por meio do e-mail EMAIL.
