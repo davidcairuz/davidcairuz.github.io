@@ -11,9 +11,9 @@ menu:
 - {name: 'Dashboards', folder: 'pages', file: 'dashboards.html'}
 # - {name: 'Dashboard de contaminados', folder: 'pages', file: 'dashboard_contaminados.html'}
 # - {name: 'Dashboard de mortes', folder: 'pages', file: 'dashboard_mortes.html'}
-- {name: 'Mapas', folder: 'pages', file: 'maps.html'}
-- {name: 'Gráficos', folder: 'pages', file: 'graphs.html'}
-- {name: 'Tabela', folder: 'pages', file: 'tables.html'}
+# - {name: 'Mapas', folder: 'pages', file: 'maps.html'}
+# - {name: 'Gráficos', folder: 'pages', file: 'graphs.html'}
+# - {name: 'Tabela', folder: 'pages', file: 'tables.html'}
 - {name: 'Sobre', folder: 'pages', file: 'about.html'}
 - {name: 'Contato', folder: 'pages', file: 'contact.html'}
 
