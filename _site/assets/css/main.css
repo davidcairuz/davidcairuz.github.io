@@ -1,12 +1,19 @@
 /*
   Site variables
 */
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block; }
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 1px 1px;
   grid-template-areas: "Grafico-1 Grafico-2 Mapa Mapa Mapa" "Grafico-1 Grafico-2 Mapa Mapa Mapa" "Grafico-3 Grafico-4 Mapa Mapa Mapa" "Grafico-3 Grafico-4 Corridinha Corridinha Corridinha" "Grafico-5 Grafico-6 Corridinha Corridinha Corridinha" "Grafico-5 Grafico-6 Corridinha Corridinha Corridinha"; }
+
+#teste2 {
+  visibility: hidden; }
 
 .Corridinha {
   grid-area: Corridinha; }

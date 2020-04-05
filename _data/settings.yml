@@ -8,12 +8,13 @@ google-ID: 'UA-112060364-2'
 
 menu:
 - {name: 'Home', folder: '.', file: ''}
+- {name: 'Dashboard de contaminados', folder: 'pages', file: 'dashboard_contaminados.html'}
+- {name: 'Dashboard de mortes', folder: 'pages', file: 'dashboard_mortes.html'}
 - {name: 'Mapas', folder: 'pages', file: 'maps.html'}
 - {name: 'Gráficos', folder: 'pages', file: 'graphs.html'}
 - {name: 'Tabela', folder: 'pages', file: 'tables.html'}
 - {name: 'Sobre', folder: 'pages', file: 'about.html'}
 - {name: 'Contato', folder: 'pages', file: 'contact.html'}
-- {name: 'Teste', folder: 'pages', file: 'testando.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:

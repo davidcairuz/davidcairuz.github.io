@@ -13,6 +13,12 @@
 <loc>http://localhost:4000/pages/contact.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/pages/dashboard_contaminados.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/pages/dashboard_mortes.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/pages/graphs.html</loc>
 </url>
 <url>
@@ -25,7 +31,7 @@
 <loc>http://localhost:4000/pages/tables.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/pages/testando.html</loc>
+<loc>http://localhost:4000/pages/teste_filtro.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tables/top_city_cases.html</loc>
