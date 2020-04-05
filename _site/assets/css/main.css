@@ -1,10 +1,6 @@
 /*
   Site variables
 */
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block; }
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -12,8 +8,27 @@
   gap: 1px 1px;
   grid-template-areas: "Grafico-1 Grafico-2 Mapa Mapa Mapa" "Grafico-1 Grafico-2 Mapa Mapa Mapa" "Grafico-3 Grafico-4 Mapa Mapa Mapa" "Grafico-3 Grafico-4 Corridinha Corridinha Corridinha" "Grafico-5 Grafico-6 Corridinha Corridinha Corridinha" "Grafico-5 Grafico-6 Corridinha Corridinha Corridinha"; }
 
-#teste2 {
-  visibility: hidden; }
+#teste {
+  display: none; }
+
+.button {
+  background-color: #c9667d;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #FFFFFF; }
+
+.button:hover {
+  background-color: #ac3e5a; }
+
+.button:active {
+  position: relative;
+  top: 1px; }
 
 .Corridinha {
   grid-area: Corridinha; }

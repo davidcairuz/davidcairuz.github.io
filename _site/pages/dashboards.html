@@ -5,7 +5,7 @@
 
   <title>
     
-      Dashboard de mortes | COVID-19
+      Dashboards | COVID-19
     
   </title>
 
@@ -42,18 +42,18 @@
 
   <!-- Use Jekyll SEO plugin -->
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Dashboard de mortes | COVID-19</title>
+<title>Dashboards | COVID-19</title>
 <meta name="generator" content="Jekyll v3.6.3" />
-<meta property="og:title" content="Dashboard de mortes" />
+<meta property="og:title" content="Dashboards" />
 <meta name="author" content="ICMC" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Estudo sobre o novo coronavirus" />
 <meta property="og:description" content="Estudo sobre o novo coronavirus" />
-<link rel="canonical" href="http://localhost:4000/pages/teste_filtro.html" />
-<meta property="og:url" content="http://localhost:4000/pages/teste_filtro.html" />
+<link rel="canonical" href="http://localhost:4000/pages/dashboards.html" />
+<meta property="og:url" content="http://localhost:4000/pages/dashboards.html" />
 <meta property="og:site_name" content="COVID-19" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Dashboard de mortes","author":{"@type":"Person","name":"ICMC"},"url":"http://localhost:4000/pages/teste_filtro.html","description":"Estudo sobre o novo coronavirus","@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"Dashboards","author":{"@type":"Person","name":"ICMC"},"url":"http://localhost:4000/pages/dashboards.html","description":"Estudo sobre o novo coronavirus","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -69,11 +69,7 @@
   </h3>
   <nav class="menu-list">
     
-      <a href="/./" class="menu-link">Home</a>
-    
-      <a href="/pages/dashboard_contaminados.html" class="menu-link">Dashboard de contaminados</a>
-    
-      <a href="/pages/dashboard_mortes.html" class="menu-link">Dashboard de mortes</a>
+      <a href="/pages/dashboards.html" class="menu-link">Dashboards</a>
     
       <a href="/pages/maps.html" class="menu-link">Mapas</a>
     
@@ -94,11 +90,7 @@
     <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
     <div class="dropdown-content">
       
-        <a href="/pages/" class="menu-link">Home</a>
-      
-        <a href="/pages/dashboard_contaminados.html" class="menu-link">Dashboard de contaminados</a>
-      
-        <a href="/pages/dashboard_mortes.html" class="menu-link">Dashboard de mortes</a>
+        <a href="/pages/dashboards.html" class="menu-link">Dashboards</a>
       
         <a href="/pages/maps.html" class="menu-link">Mapas</a>
       
@@ -119,7 +111,28 @@
 </header>
 
   <div class="posts-wrapper">
-    <div class="grid-container" id = "teste">
+    <div id="myBtnContainer" align="right">
+    <button class="button" onclick="funcaomortes()">Mortes</button>
+    <button class="button" onclick="funcaocasos()">Casos Confirmados</button>
+</div> 
+
+<br>
+
+<script>
+
+    function funcaomortes() {
+        document.getElementById("teste2").style.display = "none";
+        document.getElementById("teste").style.display = "grid";
+
+        }
+    function funcaocasos() {
+        document.getElementById("teste").style.display = "none";
+        document.getElementById("teste2").style.display = "grid";
+        }
+
+</script>
+
+<div class="grid-container" id = "teste">
     <div class="Corridinha">
         <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/1796633" data-url="https://flo.uri.sh/visualisation/1796633/embed" data-height="450px"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
     </div>
@@ -153,6 +166,39 @@
     </div>
 </div>
 
+<div class="grid-container" id = "teste2">
+    <div class="Corridinha">
+        <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/1797086" data-url="https://flo.uri.sh/visualisation/1797086/embed" data-height="450px"><script src="https://public.flourish.studio/resources/embed.js"></script></div> 
+    </div>
+
+    <div class="Mapa">
+        <iframe src="/maps/confirmed_map.html" width="100%" height="100%"></iframe>
+    </div>
+
+    <div class="Grafico-1">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/1806241" data-url="https://flo.uri.sh/visualisation/1806241/embed" data-height="300px"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </div>
+
+    <div class="Grafico-2">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/1806292" data-url="https://flo.uri.sh/visualisation/1806292/embed" data-height="300px"><script src="https://public.flourish.studio/resources/embed.js"></script></div>    
+    </div>
+
+    <div class="Grafico-3">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/1806463" data-url="https://flo.uri.sh/visualisation/1806463/embed" data-height="300px"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </div>
+
+    <div class="Grafico-4">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/1806307" data-url="https://flo.uri.sh/visualisation/1806307/embed" data-height="300px"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </div>
+
+    <div class="Grafico-5">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/1806327" data-url="https://flo.uri.sh/visualisation/1806327/embed" data-height="300px"><script src="https://public.flourish.studio/resources/embed.js"></script></div>    
+    </div>
+
+    <div class="Grafico-6">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/1806504" data-url="https://flo.uri.sh/visualisation/1806504/embed"  data-height="300px"><script src="https://public.flourish.studio/resources/embed.js"></script></div>  
+    </div>
+</div>
 
   </div>
   <footer class="footer">

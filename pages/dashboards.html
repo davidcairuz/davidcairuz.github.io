@@ -1,119 +1,10 @@
-<!doctype html>
-<html>
-
-<head>
-
-  <title>
-    
-      COVID-19 | Estudo sobre o novo coronavirus
-    
-  </title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/assets/css/syntax.css">
-  <!-- Use Atom -->
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="COVID-19" />
-  <!-- RSS-v2.0
-  <link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="COVID-19 | Estudo sobre o novo coronavirus"/>
-  //-->
-
-
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-
-  <!-- Google Analytics -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-112060364-2', 'auto');
-  ga('send', 'pageview');
-</script>
-
-
-  <!-- Use Jekyll SEO plugin -->
-  <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Home | COVID-19</title>
-<meta name="generator" content="Jekyll v3.6.3" />
-<meta property="og:title" content="Home" />
-<meta name="author" content="ICMC" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Estudo sobre o novo coronavirus" />
-<meta property="og:description" content="Estudo sobre o novo coronavirus" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="COVID-19" />
-<script type="application/ld+json">
-{"@type":"WebSite","headline":"Home","author":{"@type":"Person","name":"ICMC"},"url":"http://localhost:4000/","description":"Estudo sobre o novo coronavirus","name":"COVID-19","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-</head>
-
-
-<body>
-
-<div class="container">
-  <header class="site-header">
-  <h3 class="site-title">
-    <a href="/">COVID-19</a>
-  </h3>
-  <nav class="menu-list">
-    
-      <a href="/pages/dashboards.html" class="menu-link">Dashboards</a>
-    
-      <a href="/pages/maps.html" class="menu-link">Mapas</a>
-    
-      <a href="/pages/graphs.html" class="menu-link">Gráficos</a>
-    
-      <a href="/pages/tables.html" class="menu-link">Tabela</a>
-    
-      <a href="/pages/about.html" class="menu-link">Sobre</a>
-    
-      <a href="/pages/contact.html" class="menu-link">Contato</a>
-    
-
-    
-      <a href="mailto:davidcairuz@gmail.com" class="menu-link" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-    
-  </nav>
-  <div class="dropdown">
-    <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
-    <div class="dropdown-content">
-      
-        <a href="/pages/dashboards.html" class="menu-link">Dashboards</a>
-      
-        <a href="/pages/maps.html" class="menu-link">Mapas</a>
-      
-        <a href="/pages/graphs.html" class="menu-link">Gráficos</a>
-      
-        <a href="/pages/tables.html" class="menu-link">Tabela</a>
-      
-        <a href="/pages/about.html" class="menu-link">Sobre</a>
-      
-        <a href="/pages/contact.html" class="menu-link">Contato</a>
-      
-
-      
-        <a href="mailto:davidcairuz@gmail.com" class="menu-link" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-      
-    </div>
-  </div>
-</header>
-
-  <div class="posts-wrapper">
-    <div id="myBtnContainer" align="right">
-  <button class="button" onclick="funcaocasos()">Casos confirmados</button>
-  <button class="button" onclick="funcaomortes()">Mortes</button>
+---
+layout: default
+title: Dashboards
+---
+<div id="myBtnContainer" align="right">
+    <button class="button" onclick="funcaomortes()">Mortes</button>
+    <button class="button" onclick="funcaocasos()">Casos Confirmados</button>
 </div> 
 
 <br>
@@ -138,7 +29,7 @@
     </div>
 
     <div class="Mapa">
-        <iframe src="/maps/deaths_map.html" width="100%" height="100%"></iframe>
+        <iframe src="{{ site.github.url }}/maps/deaths_map.html" width="100%" height="100%"></iframe>
     </div>
 
     <div class="Grafico-1">
@@ -172,7 +63,7 @@
     </div>
 
     <div class="Mapa">
-        <iframe src="/maps/confirmed_map.html" width="100%" height="100%"></iframe>
+        <iframe src="{{ site.github.url }}/maps/confirmed_map.html" width="100%" height="100%"></iframe>
     </div>
 
     <div class="Grafico-1">
@@ -199,16 +90,3 @@
         <div class="flourish-embed flourish-chart" data-src="visualisation/1806504" data-url="https://flo.uri.sh/visualisation/1806504/embed"  data-height="300px"><script src="https://public.flourish.studio/resources/embed.js"></script></div>  
     </div>
 </div>
-
-  </div>
-  <footer class="footer">
-  
-    <a href="mailto:davidcairuz@gmail.com" class="menu-link" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-  
-  <div class="post-date"><a href="/">COVID-19 | Estudo sobre o novo coronavirus pelo ICMC</a></div>
-</footer>
-
-</div>
-
-</body>
-</html>

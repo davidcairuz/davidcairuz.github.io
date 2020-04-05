@@ -7,9 +7,10 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Home', folder: '.', file: ''}
-- {name: 'Dashboard de contaminados', folder: 'pages', file: 'dashboard_contaminados.html'}
-- {name: 'Dashboard de mortes', folder: 'pages', file: 'dashboard_mortes.html'}
+# - {name: 'Home', folder: '.', file: ''}
+- {name: 'Dashboards', folder: 'pages', file: 'dashboards.html'}
+# - {name: 'Dashboard de contaminados', folder: 'pages', file: 'dashboard_contaminados.html'}
+# - {name: 'Dashboard de mortes', folder: 'pages', file: 'dashboard_mortes.html'}
 - {name: 'Mapas', folder: 'pages', file: 'maps.html'}
 - {name: 'Gráficos', folder: 'pages', file: 'graphs.html'}
 - {name: 'Tabela', folder: 'pages', file: 'tables.html'}
